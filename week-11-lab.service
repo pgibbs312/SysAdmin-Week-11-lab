@@ -1,0 +1,7 @@
+[Unit]
+Description=This will run a weather report
+[Service]
+ExecStart=/home/vagrant/week-11/week-11-lab
+WorkingDirectory=/home/vagrant/week-11
+[Install]
+WantedBy=hour-timer-target
